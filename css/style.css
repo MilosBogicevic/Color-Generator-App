@@ -3,3 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #1f85de;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.color {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.generateColor {
+  outline: none;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.generateColor:hover {
+  background-color: #1f85de;
+  color: #fff;
+}
