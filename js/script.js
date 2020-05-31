@@ -28,5 +28,5 @@ function copyColor() {
   //   Remove input element
   document.body.removeChild(input);
 
-  alert("Copied: " + text);
+  alert("Copied!");
 }
