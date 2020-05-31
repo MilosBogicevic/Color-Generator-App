@@ -17,20 +17,21 @@ body {
   color: #fff;
   font-size: 65px;
   font-weight: 800;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .generateColor {
   outline: none;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
   border-radius: 25px;
-  padding: 1rem 2rem;
+  padding: 15px 30px;
   font-size: 2rem;
   cursor: pointer;
 }
 
 .generateColor:hover {
-  background-color: #1f85de;
   color: #fff;
+  background: none;
 }
